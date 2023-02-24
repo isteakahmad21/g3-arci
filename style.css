@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+/* Header Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+nav h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+
+/* banner Style */
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+    text-align: center;
+
+    max-width: 862px;
+    min-height: 322px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background-color: #ff900e;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    width: fit-content;
+    height: 64px;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Feuture */
+
+.features-container {
+    display: flex;
+    max-width: 1318px;
+
+    align-items: center;
+    margin: 130px auto;
+    gap: 73px;
+}
+
+.pic-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.text-container {
+    max-width: 537px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text-container h1 {
+    font-weight: 500;
+    font-size: 45px;
+    
+}
+
+.secendary {
+    color: #727272;
+}
+
+.primary {
+    color: #ff900e;
+}
+
+/* Next section */
+
+.love-enjoy-container {
+    /* display: flex;
+    align-items: center;
+    gap: 50px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.love-enjoy-container-text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #f88912;
+
+    padding-left: 25px;
+}
+
+.love-enjoy-container-text p {
+
+    font-weight: 400;
+    font-size: 16px;
+    margin: 35px 0 ;
+}
+.love-enjoy-container-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+.indivi-card {
+    padding: 25px;
+    max-width: 586px;
+    height: 171px;
+    
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2.5px 0;
+}
